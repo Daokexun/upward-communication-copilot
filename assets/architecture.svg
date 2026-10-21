@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0918"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1533"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="480" rx="16" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="1198" height="478" rx="15" fill="none" stroke="#334155" stroke-width="1"/>
+
+  <text x="600" y="45" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f8fafc" text-anchor="middle">Upward Management & Promotion Defense 4-Stage Architecture</text>
+  <text x="600" y="70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">Grounded in WeChat Pay kaka's 23-Year Mentorship · Options-First · 30s Async · STAR Restructuring · Defense Simulation</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(40, 100)" filter="url(#shadow)">
+    <rect width="250" height="320" rx="12" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#a855f7"/>
+    <circle cx="36" cy="36" r="16" fill="#9333ea"/>
+    <text x="36" y="42" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">01</text>
+    <text x="64" y="34" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">Options-First Protocol</text>
+    <text x="64" y="52" font-family="sans-serif" font-size="11" fill="#a855f7">OPTIONS-FIRST</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#334155" stroke-width="1"/>
+    
+    <text x="20" y="95" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">🎯 严禁带着空白问答题汇报</text>
+    <text x="20" y="125" font-family="sans-serif" font-size="12" fill="#94a3b8">• 方案 A：保底稳妥型 (低风险)</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#94a3b8">• 方案 B：创新突破型 (高回报)</text>
+    <text x="20" y="175" font-family="sans-serif" font-size="12" fill="#94a3b8">• 方案 C：低成本折中型 (救急)</text>
+    <text x="20" y="200" font-family="sans-serif" font-size="12" fill="#94a3b8">• 附带个人倾向性与清晰决策理由</text>
+    
+    <rect x="20" y="235" width="210" height="65" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="258" font-family="sans-serif" font-size="11" fill="#a855f7">💡 kaka 核心点拨</text>
+    <text x="30" y="280" font-family="sans-serif" font-size="11" fill="#cbd5e1">“做选择题只需要 30 秒，做问答题需要 30 分钟。帮 Leader 节省脑力。”</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(330, 100)" filter="url(#shadow)">
+    <rect width="250" height="320" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#38bdf8"/>
+    <circle cx="36" cy="36" r="16" fill="#0284c7"/>
+    <text x="36" y="42" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">02</text>
+    <text x="64" y="34" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">30s Async Broadcast</text>
+    <text x="64" y="52" font-family="sans-serif" font-size="11" fill="#38bdf8">ASYNC BROADCAST</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#334155" stroke-width="1"/>
+    
+    <text x="20" y="95" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">📡 消除 Leader 的黑盒焦虑</text>
+    <text x="20" y="125" font-family="sans-serif" font-size="12" fill="#94a3b8">• 阶段性进展：本周已闭环的核心交付</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#94a3b8">• 暴露潜在风险：前置预警避免暴雷</text>
+    <text x="20" y="175" font-family="sans-serif" font-size="12" fill="#94a3b8">• 明确资源需求：需要 Leader 协助何处</text>
+    <text x="20" y="200" font-family="sans-serif" font-size="12" fill="#94a3b8">• 跨地域与远程协同的标准信使模板</text>
+    
+    <rect x="20" y="235" width="210" height="65" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="258" font-family="sans-serif" font-size="11" fill="#38bdf8">💡 kaka 核心点拨</text>
+    <text x="30" y="280" font-family="sans-serif" font-size="11" fill="#cbd5e1">“你不说，Leader 只能靠猜。定期定点输出高确定性，就是最大的专业度。”</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(620, 100)" filter="url(#shadow)">
+    <rect width="250" height="320" rx="12" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#34d399"/>
+    <circle cx="36" cy="36" r="16" fill="#059669"/>
+    <text x="36" y="42" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">03</text>
+    <text x="64" y="34" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">STAR Restructuring</text>
+    <text x="64" y="52" font-family="sans-serif" font-size="11" fill="#34d399">STAR RESTRUCTURING</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#334155" stroke-width="1"/>
+    
+    <text x="20" y="95" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">✨ 经历不够厉害怎么讲？</text>
+    <text x="20" y="125" font-family="sans-serif" font-size="12" fill="#94a3b8">• 不报流水账：提炼背后的思考框架</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#94a3b8">• 放大关键抉择：在约束条件下的解题</text>
+    <text x="20" y="175" font-family="sans-serif" font-size="12" fill="#94a3b8">• 沉淀可复用机制：从个人英雄到制度</text>
+    <text x="20" y="200" font-family="sans-serif" font-size="12" fill="#94a3b8">• 讲出“个人独特贡献”与“成长曲线”</text>
+    
+    <rect x="20" y="235" width="210" height="65" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="258" font-family="sans-serif" font-size="11" fill="#34d399">💡 kaka 核心点拨</text>
+    <text x="30" y="280" font-family="sans-serif" font-size="11" fill="#cbd5e1">“答辩不是展示你有多苦，而是展示你在逆境中做对了什么关键决策。”</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g transform="translate(910, 100)" filter="url(#shadow)">
+    <rect width="250" height="320" rx="12" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#f59e0b"/>
+    <circle cx="36" cy="36" r="16" fill="#d97706"/>
+    <text x="36" y="42" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">04</text>
+    <text x="64" y="34" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">Promotion Defense</text>
+    <text x="64" y="52" font-family="sans-serif" font-size="11" fill="#f59e0b">PROMOTION DEFENSE</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#334155" stroke-width="1"/>
+    
+    <text x="20" y="95" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e2e8f0">🛡️ 留用与职级答辩通关</text>
+    <text x="20" y="125" font-family="sans-serif" font-size="12" fill="#94a3b8">• 实习生留用答辩：证明独立主导能力</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#94a3b8">• P9-P11 职级答辩：战略对齐与业务广度</text>
+    <text x="20" y="175" font-family="sans-serif" font-size="12" fill="#94a3b8">• 评委尖锐质询抗压模拟与破局话术</text>
+    <text x="20" y="200" font-family="sans-serif" font-size="12" fill="#94a3b8">• 100 分制向上管理与答辩成熟度评分</text>
+    
+    <rect x="20" y="235" width="210" height="65" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="258" font-family="sans-serif" font-size="11" fill="#f59e0b">💡 kaka 核心点拨</text>
+    <text x="30" y="280" font-family="sans-serif" font-size="11" fill="#cbd5e1">“提前把评委可能抓的所有小辫子在沙盘里演练三遍，现场就是降维打击。”</text>
+  </g>
+</svg>

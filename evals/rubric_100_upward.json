@@ -1,0 +1,27 @@
+{
+  "title": "BigTech Upward Management & Defense 100-Point Rubric",
+  "total_points": 100,
+  "passing_grade": 85,
+  "dimensions": [
+    {
+      "dimension": "Options-First Rigor",
+      "weight": 25,
+      "criteria": "Provides 3 structured options with trade-offs & recommendation. Zero blank questions."
+    },
+    {
+      "dimension": "Async Communication & Transparency",
+      "weight": 25,
+      "criteria": "Concise 30s broadcast clearing blockers and pre-empting risks."
+    },
+    {
+      "dimension": "STAR Depth & Methodological Reflection",
+      "weight": 25,
+      "criteria": "Demonstrates why decisions were made, challenges overcome, and reusable learnings."
+    },
+    {
+      "dimension": "Promotion Defense Resilience",
+      "weight": 25,
+      "criteria": "Withstands sharp committee cross-examination with structured composure."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UpwardAlignmentReport",
+  "type": "object",
+  "properties": {
+    "alignment_type": {
+      "type": "string",
+      "enum": [
+        "Options_Decision",
+        "Weekly_Sync",
+        "Promotion_Defense"
+      ]
+    },
+    "options_matrix": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "option_name": {
+            "type": "string"
+          },
+          "pros": {
+            "type": "string"
+          },
+          "cons": {
+            "type": "string"
+          },
+          "recommended": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "option_name",
+          "pros",
+          "cons",
+          "recommended"
+        ]
+      }
+    },
+    "star_narrative": {
+      "type": "string"
+    },
+    "defense_readiness_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    }
+  },
+  "required": [
+    "alignment_type",
+    "star_narrative",
+    "defense_readiness_score"
+  ]
+}
