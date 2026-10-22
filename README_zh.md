@@ -48,7 +48,7 @@
 下图展示了从日常异步协同、关键决策对齐到晋升答辩攻防的闭环流程：
 
 <div align="center">
-  <img src="assets/architecture_zh.svg" alt="向上管理业务系统架构图" width="100%" />
+  <img src="assets/architecture_zh.png" alt="向上管理业务全景系统架构图" width="100%" style="border-radius: 10px; border: 1px solid #27272A; box-shadow: 0 8px 30px rgba(0,0,0,0.3);" />
 </div>
 
 ---

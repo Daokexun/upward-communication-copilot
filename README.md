@@ -48,7 +48,7 @@ Modeled after executive leadership editorial playbooks and asynchronous enterpri
 The following diagram illustrates the complete workflow from daily async updates to executive sign-offs and committee defense:
 
 <div align="center">
-  <img src="assets/architecture.svg" alt="Upward Alignment System Architecture" width="100%" />
+  <img src="assets/architecture.png" alt="Upward Alignment System Architecture" width="100%" style="border-radius: 10px; border: 1px solid #27272A; box-shadow: 0 8px 30px rgba(0,0,0,0.3);" />
 </div>
 
 ---
