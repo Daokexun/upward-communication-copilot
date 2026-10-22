@@ -1,157 +1,109 @@
-<p align="center">
-  <img src="assets/hero_poster_zh.jpg" alt="鹅厂 23年产品 kaka 亲授 · 向上管理 GTM" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.18);" />
-</p>
+<div align="right">
+  <b>简体中文</b> | <a href="README.md">English</a>
+</div>
 
 <div align="center">
 
-[English](README.md) • **简体中文**
+<img src="assets/hero_poster_zh.jpg" alt="高阶向上管理与晋升答辩实战指南" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);" />
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Skill: Antigravity](https://img.shields.io/badge/技能-Antigravity-6366f1.svg?style=flat-square)](SKILL.md)
-[![适配人群](https://img.shields.io/badge/适配人群-职场新人_%7C_大厂实习转正_%7C_职级晋升-10b981.svg?style=flat-square)](#-职场突围的三大-gtm-战略基石)
-[![审核机制](https://img.shields.io/badge/答辩质检-沙盘对抗通过-06b6d4.svg?style=flat-square)](evals/rubric_100_upward.json)
-[![PRs Welcome](https://img.shields.io/badge/PRs-欢迎共建-violet.svg?style=flat-square)](CONTRIBUTING.md)
+# 高阶向上管理与晋升答辩实战指南
+### Executive Upward Alignment & Promotion Defense Copilot
 
-<p align="center">
-  <b>职场新人最致命的陷阱，不是能力不够，而是“不敢麻烦 Leader、闭门造车闷头苦干”。</b><br>
-  别再让黑盒焦虑摧毁你的职场信任。基于微信支付 23 年产品资深面试官 kaka 亲授实战心法，用“带选择题对齐协议、30秒异步卡片、STAR 降维提炼与答辩沙盘推演”，重构职场高确定性与晋升胜率。
-</p>
-
-[GTM 理念](#-什么是向上管理的-go-to-market-gtm-策略) • [三大战略基石](#-职场突围的三大-gtm-战略基石) • [四步落地路线](#-四步构建向上对齐与答辩高壁垒gtm-实施路线) • [实战真实对比](#-实战真实对比不敢找-leader-闷头苦干-vs-本工具高情商对齐方案) • [极速上手](#-30秒极速上手) • [系列架构](docs/ARCHITECTURE.md)
-
----
+**沉淀自腾讯微信支付 23 年产品专家与资深面试官 kaka 实战手记 · 职场关键决策协同与晋升攻防体系**
 
 </div>
 
-## 🎯 什么是向上管理的 Go-to-Market (GTM) 策略？
+---
 
-> **“Think of a go-to-market strategy as the north star that guides your product launch.”**  
-> —— 亚马逊官方 GTM 指南
+### 📖 导读与实战背景
 
-很多职场新人甚至老鹅，都有一个挥之不去的心理包袱：**“总觉得去找 Leader 汇报是打扰领导、暴露自己无能，能自己扛就自己硬扛。”**
+> **“向上管理不是拍马屁，更不是被动等待指令。它是把你的管理者变成你推进业务的最高效杠杆。卓越员工与平庸员工最大的区别，在于前者永远带着选项找主管，后者永远带着问号找答案。”**  
+> —— kaka（腾讯微信支付 23 年资深业务面试官）
 
-结果呢？闷头搞了三周，最后拿出来的方案跟团队大战略南辕北辙，不仅自己委屈崩溃，Leader 也被吓出一身冷汗——错过了最佳救场时机。
+在大型组织与高成长团队中，一线骨干常面临三大困局：
 
-**向上管理绝不是拍马屁，而是把你自己和你的项目作为交付物，向你最重要的内部客户（Leader 与业务评委）持续进行预期管理与价值交付的 GTM 过程：**
-1. **摸透 Leader 的真实痛点（Understand Your Audience）**：Leader 怕的从来不是你问问题，Leader 最怕的是“信息黑盒”与“临期暴雷”。
-2. **永远带着选项敲门（Understand the Decision Load）**：不要把空白问答题扔给领导，必须端出三套方案（A 稳妥/ B 突破/ C 折中）与量化利弊，帮 Leader 做 30 秒轻松决策。
-3. **在关键节点建立极高确定性（Connect & Deliver）**：平时靠 30 秒卡片同步消除焦虑，答辩时靠严密的 STAR 决策复盘与底层机制沉淀赢下高票赞成。
+1. **“低头拉车，无人知晓”**：每天加班至深夜处理突发异常，自以为任劳任怨，到了年度考核和晋升评审，评委却认为“只具备执行力，缺乏业务全局把控度”；
+2. **“无效沟通，引发焦虑”**：主管询问“项目推进怎么样”，要么发一段 800 字没有重点的流水账，要么回一句空洞的“都在正常推进”，导致主管对关键风险完全失控；
+3. **“答辩翻车，功亏一篑”**：晋升答辩现场，评委一追问“这个项目换别人做会怎样”、“你到底主导了什么”，瞬间语塞，陷入苦劳式自我感动。
 
-**`upward-communication-copilot`** 将微信支付面试官 kaka 在腾讯内部辅导过数百名新人留用与 P9-P11 答辩的实战方法论，凝结成标准化 Agent 引擎。
+本指南源于腾讯 23 年资深产品专家 kaka 的带队与评审实战，系统梳理**选项优先决策协议、30秒异步简报、STAR战功叙事重构与专家级晋升防守沙盘**，帮助职场人建立与上级、评审委员会的深度信任。
 
 ---
 
-## 🏛️ 职场突围的三大 GTM 战略基石
+### 🏛️ 四大核心支柱 (Core Capabilities)
 
-| 战略基石 | 核心操盘抓手 | 落地价值与产出 |
+参考 LinkedIn Pulse 领英专栏与企业协作最佳实践，本系统包含 4 个标准化工作台：
+
+| 模块 | 核心解决问题 | 一线实战落地打法 |
 | :--- | :--- | :--- |
-| **1. 降低领导决策负荷<br/>(Options-First)** | 严禁空白问答题，永远梳理 A（稳妥）、B（创新）、C（折中）三套方案并给明确倾向。 | Leader 决策时间由 30 分钟压降至 30 秒，瞬间建立“极其专业、善于思考”的信任印记。 |
-| **2. 建立高确定性异步信使<br/>(Async Broadcast)** | 落实已闭环（Done）、推进中（WIP）、卡点求助（Blockers/Asks）三段式同步卡片。 | 彻底打破异地与远程办公的信息黑盒，让 Leader 随时掌握进度，前置化解风险。 |
-| **3. 淬炼底层决策逻辑<br/>(STAR & Defense)** | 摆脱苦劳流水账，深挖极限约束下的关键抉择、失败反思与可复用机制。 | 实习生留用答辩与 P9-P11 职级答辩无死角通关，将寻常项目讲出顶尖产品哲学。 |
+| **01 选项优先决策协议**<br>`prompts/01_options_first_decision_protocol.md` | 杜绝把决策压力直接甩给主管 | 严格遵循“推荐方案（带收益）+ 备选方案（带折中）+ 所需决策动作”，把问答题转化为单选题。 |
+| **02 30秒异步进度简报**<br>`prompts/02_async_status_broadcast.md` | 解决信息不对称与过度汇报焦虑 | 结构化输出“核心里程碑进度 + 关键阻塞卡点 + 备用兜底预案 + 所需特定支持”，建立零惊吓汇报机制。 |
+| **03 业务战功叙事重构 (STAR)**<br>`prompts/03_star_narrative_restructuring.md` | 彻底剥离苦劳叙事，聚焦商业成果 | 采用“业务痛点与危机 Context $	o$ 架构级决策 Action $	o$ 业务量化结果 Result”，把繁杂运维重构为商业底座。 |
+| **04 专家级晋升答辩沙盘**<br>`prompts/04_p9_promotion_defense_simulator.md` | 应对 P9-P11 专家评审连环高压追问 | 模拟针对“主导权占比”、“技术与业务取舍”、“跨团队阻力化解”、“不可替代性”等维度的压力测试。 |
 
 ---
 
-## 🔄 四步构建向上对齐与答辩高壁垒：GTM 实施路线
+### 📐 业务全景系统架构
 
-<p align="center">
-  <img src="assets/architecture_zh.svg" alt="鹅厂向上管理与职级答辩四步法架构" width="100%" style="border-radius: 12px;" />
-</p>
+下图展示了从日常异步协同、关键决策对齐到晋升答辩攻防的闭环流程：
 
-### 📍 Step 1. 带选择题敲门 (Options-First Protocol)
-- **方案 A（保底稳妥型）**：低风险、按部就班、收益确定。
-- **方案 B（突破创新型）**：具备高杠杆，但需要一定试错预算与周期。
-- **方案 C（低成本折中型）**：极端资源约束下的救急兜底。
-- **给出个人专属倾向**：附带清晰数据与业务支撑，把领导从命题人变成裁判员。
-
-### 📍 Step 2. 30秒异步进展同步 (Async Broadcast)
-- **已交付产出 (Done)**：量化本周核心闭环价值。
-- **明确卡点与指名求助 (Blockers & Asks)**：说明需要领导在哪个环节出面推一把，拒绝模糊抱怨。
-- **风险前置预警**：提前 5 天暴露潜在延期苗头，把暴雷扼杀在萌芽中。
-
-### 📍 Step 3. STAR 降维提炼工坊 (STAR Restructuring)
-- **重构经历深度**：
-  - Situation 渲染极限矛盾（多业务冲突、高并发、时间卡死）。
-  - Task 明确硬核攻坚指标。
-  - Action 讲透为什么放弃主流解法，如何通过架构/机制破局。
-  - Result 展现跨团队复用沉淀。
-
-### 📍 Step 4. 答辩与晋级沙盘推演 (Promotion Defense)
-- **全真评委视角刁难质询**：模拟腾讯 P11+ 资深委员会专家提问。
-- **100 分制向上管理与答辩成熟度审查**：低于 85 分自动强化反思与方法论提炼。
+<div align="center">
+  <img src="assets/architecture_zh.svg" alt="向上管理业务系统架构图" width="100%" />
+</div>
 
 ---
 
-## 🥊 实战真实对比：不敢找 Leader 闷头苦干 vs 本工具高情商对齐方案
+### 🥊 实战攻防对比：学生式汇报 vs 专家级向上对齐
 
-以一名在鹅厂核心业务线实习并准备留用答辩的同学为例：
-
-| 场景 | ❌ 常见新人误区 (不敢麻烦 Leader / 闷头干) | 💎 本工具重构的高阶向上管理方案 (kaka 实战标准) |
+| 职场场景 | 普通员工的习惯性应对 | 资深专家的向上对齐打法 |
 | :--- | :--- | :--- |
-| **遇到业务分歧** | “不敢去找 Leader，自己瞎猜需求，加了两周班做了个自认为很牛的功能，汇报时被批评偏离战略重心。”<br>*(❌ 浪费团队资源，加剧黑盒焦虑)* | **【带着三套选择题敲门】**<br>“Leader，关于该模块有 3 种解法：A 是低风险热修复，B 是彻底重构接口，C 是灰度降级。结合本季度上线时点，我建议采用 A 方案，同时下周前置测试 B 方案，您看如何？” |
-| **周报与进度汇报** | “这周写了代码，改了几个 Bug，参加了组会，下周继续开发。”<br>*(❌ 流水账记仇簿，Leader 根本抓不住核心业务价值)* | **“📡 【30 秒高确定性卡片】”**<br>• 已交付：完成核心支付路由接口压测，P95 延迟压降 15ms；<br>• 卡点求助：需协调风控组提供沙盒测试数据，已提工单，请求 Leader 推进加急；<br>• 下周攻坚：完成全链路灰度 10% 放量。 |
-| **留用与职级答辩** | “我在这三个月里做了很多杂活，每天加班到 10 点，代码提交了 500 次，非常热爱这个团队。”<br>*(❌ 用苦劳代替功劳，答辩委员会直接挂)* | **“🏆 【STAR 深度抉择与复盘】”**<br>重构为：在面临日均 3000 万请求高并发下，如何在零故障约束下主导完成冷热数据解耦；讲透技术抉择逻辑与沉淀的跨业务重试中间件，评委一致给全 A 评价。 |
+| **遇到跨部门接口人拖延排期** | 找领导抱怨：“张总，XX 部门一直不给我们排期，项目可能要延期了。” | **带选项申请资源**：“张总，XX 部门由于当期重组，接口联调延迟 5 天。当前我有两个预案：**方案A（推荐）**：采用降级 Mock 方案先行联调，核心功能如期在 28 号上线，需您在周会帮我们与业务线老李确认下周灰度范围；**方案B**：等待其正式接口，整体延迟至下月中旬。我建议执行方案A，您看是否可行？” |
+| **主管微信询问：“项目进展如何？”** | 回复一段 500 字的详细操作记录，列举每天开了什么会、写了什么代码。 | **30 秒异步要点播报**：“李总，项目当前处于压测阶段：1. **核心进展**：支付链路联调 100% 完成，TPS 达到 8500（超预期 20%）；2. **卡点与预案**：风控策略响应偶发超时（约 1.2%），已上线旁路熔断机制，预计明早 10 点前完成修复；3. **结论**：本周四按期发布不受影响，无需额外协调资源。” |
+| **晋升答辩被评委问：“这个业务不是大盘带起来的吗，你的核心贡献是什么？”** | 慌乱自辩：“我每天都在加班写代码，如果没有我们团队支撑，系统早就崩溃了。” | **因果剥离与反事实推演**：“老师问到了最关键的点。大盘确实有 25% 的自然增长，但我们团队的核心攻坚在于：在大盘流量翻倍的背景下，**将单笔交易算力成本降低了 38%，并消除了 3 处历史遗留的单点雪崩隐患**。如果不做这套自适应调度改造，大盘增长所带来的直接服务器预算开销将增加 180 万元/月。这是我们团队在该项目中不可替代的商业底座价值。” |
 
 ---
 
-## 🧠 微信支付资深面试官 kaka 的三大核心心法
-
-### 1. 敢于麻烦 Leader 才是真正的成熟
-Leader 的核心职责是为团队扫除障碍、调配资源。当你带着选择题来找 Leader，你不是在给他添麻烦，而是在帮他完成团队目标。
-
-### 2. 确定性是职场最高级的溢价
-能力强的人很多，但能让人“睡得着觉”的人很少。定期同步、不瞒报风险、言出必行，你就拥有了不可替代的信任资产。
-
-### 3. 答辩展示的是你的思维天花板
-千万不要陷入具体技术细节的自嗨。评委想看到的是你在复杂混沌的现实世界里，展现出的商业洞察、架构审美与复原反思。
-
----
-
-## 📂 项目结构
+### 📂 仓库核心资产目录
 
 ```text
 upward-communication-copilot/
-├── SKILL.md                          # Antigravity Agent 技能主控规范
-├── README.md                         # 英文官方文档 (English)
-├── README_zh.md                      # 中文官方文档 (简体中文)
-├── LICENSE                           # MIT 开源协议
-├── CONTRIBUTING.md                   # 贡献指南
-├── assets/                           # 商业海报与纯矢量架构图
-│   ├── hero_poster_zh.jpg            # 中文版高质感商业海报
-│   ├── hero_poster_en.jpg            # 英文版高质感商业海报
-│   ├── architecture_zh.svg           # 中文四步法架构流程图
-│   └── architecture.svg              # 英文四步法架构流程图
-├── prompts/                          # 4 大模块化提示词资产工厂
-│   ├── 01_options_first_protocol.md  # 带选择题敲门协议
-│   ├── 02_async_blocker_broadcast.md # 30秒异步进展与求助卡片
-│   ├── 03_star_restructuring_workshop.md # STAR 降维提炼工坊
-│   └── 04_promotion_defense_simulator.md # 答辩与晋级沙盘推演
-├── templates/                        # 结构化评估与模版
-│   └── upward_schema.json            # 结构化输出 JSON Schema
-├── evals/                            # 质量评估套件
-│   └── rubric_100_upward.json        # 100 分制向上对齐评估模型
-├── docs/                             # 技术架构与底层机制
-│   └── ARCHITECTURE.md               # 核心架构文档
-└── examples/                         # 实战对比与案例
-    └── SHOWCASE_COMPARISON.md        # 闷头苦干 vs 高情商对齐残酷对比
+├── assets/
+│   ├── hero_poster_zh.jpg           # Dropbox / LinkedIn 风格中文商业封面
+│   ├── hero_poster_en.jpg           # 英文版商业封面
+│   ├── architecture_zh.svg          # 中文矢量系统架构图
+│   └── architecture.svg             # 英文矢量系统架构图
+├── prompts/
+│   ├── 01_options_first_decision_protocol.md # 选项优先决策汇报协议工作台
+│   ├── 02_async_status_broadcast.md          # 30 秒异步进度与卡点播报模版
+│   ├── 03_star_narrative_restructuring.md    # 业务战功与商业影响力重构引擎
+│   └── 04_p9_promotion_defense_simulator.md # 专家级晋升答辩高压沙盘推演
+├── templates/
+│   └── upward_schema.json           # 决策汇报与晋升材料结构化 Schema
+├── evals/
+│   └── rubric_100_upward.json       # 向上管理成熟度与答辩说服力评分准则
+├── docs/
+│   └── ARCHITECTURE.md              # 向上管理与高阶影响力完整白皮书
+├── examples/
+│   └── SHOWCASE_COMPARISON.md       # 真实大厂晋升述职前后对比全记录
+├── SKILL.md                         # Antigravity / Claude 智能体技能定义
+├── README_zh.md                     # 中文实战文档（当前文件）
+└── README.md                        # 英文版发布文档
 ```
 
 ---
 
-## 🚀 30秒极速上手
+### 🚀 快速上手 (Quickstart)
 
-### 在 Google Antigravity / Claude Agent 中直接调用
-把本技能放入 `.agents/skills/upward-communication-copilot`，在对话中直接唤醒：
+```bash
+# 1. 克隆本仓库
+git clone https://github.com/Daokexun/upward-communication-copilot.git
 
-```text
-/skill upward-communication-copilot
-当前场景: 实习留用答辩 (或 向 Leader 汇报方案分歧)
-业务背景: 微信支付/电商业务，面临新老系统兼容与灰度上线卡点
-核心痛点: 方案有风险，不知道如何向 Leader 开口求助与做决策对齐
+# 2. 查阅选项优先决策汇报模版
+cat prompts/01_options_first_decision_protocol.md
 ```
 
 ---
 
-## 🤝 贡献与开源协议
+### 📄 开源许可与贡献
 
-欢迎提交 PR 与 Issue，共同扩充大厂答辩题库与向上管理对齐模板！  
-本项目基于 [MIT License](LICENSE) 开源发布。
+本项目基于 [MIT License](LICENSE) 开源。欢迎业务骨干、技术 Leader 贡献真实向上协同案例与答辩抗辩题库。贡献规范详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
