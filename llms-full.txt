@@ -1,0 +1,20 @@
+# Upward Communication Copilot (Full Specification)
+
+## 1. The Options-First Alignment Protocol
+When encountering an organizational roadblock, engineers must never dump unstructured problems on leadership. Always construct:
+- Option A (Recommended): Primary solution path with quantified ROI and resource requirements.
+- Option B (Alternative): Conservative fallback with explicit compromises and limitations.
+- Leadership Role: Convert open-ended essay questions into multiple-choice approvals.
+
+## 2. 30-Second Async Executive Broadcast Template
+1. [TL;DR / Status]: 🟢 On Track | 🟡 At Risk | 🔴 Blocked (1-sentence impact).
+2. [Business Metric]: Financial, operational, or latency delta.
+3. [Decision Fork]: Explicit action required from executive with a hard time limit.
+4. [Options & Trade-offs]: Option A vs. Option B.
+5. [Immediate Next Steps & DRI]: Next milestone deliverable and owner.
+
+## 3. Promotion Calibration Committee Defense (The 4 Hard Probes)
+- Probe 1 (Indispensability): "If someone else took over this system, what would be fundamentally different?"
+- Probe 2 (Scope & Influence): "Did this project merely execute requirements, or did you redefine the business problem?"
+- Probe 3 (Technical Debt): "What long-term architectural compromises were made to hit the launch date?"
+- Probe 4 (Peer Enablement): "How did your technical contribution multiply the velocity of adjacent teams?"

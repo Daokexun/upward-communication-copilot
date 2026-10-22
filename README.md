@@ -4,12 +4,21 @@
 
 <div align="center">
 
-<img src="assets/hero_poster_en.jpg" alt="Executive Upward Alignment & Promotion Defense Copilot" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);" />
+<img src="assets/hero_poster_en.jpg" alt="Upward Communication Copilot & Promotion Defense Protocol" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);" />
 
-# Executive Upward Alignment & Promotion Defense Copilot
-### Field-tested methodology distilled from 23-year Tencent PM and WeChat Pay senior interviewer kaka
+# Upward Communication Copilot & Promotion Defense Protocol
+### Grounded in 23-year Tencent WeChat Pay senior product leadership & interviewer field practices
 
-**A strategic framework for options-first executive alignment, zero-surprise async reporting, and promotion defense.**
+**Transform leadership into your highest-leverage business multiplier: master options-first alignment, 30s async broadcasts, and P9-P11 promotion defenses.**
+
+<p align="center">
+  <a href="https://github.com/Daokexun/upward-communication-copilot/stargazers"><img src="https://img.shields.io/github/stars/Daokexun/upward-communication-copilot?style=flat-square&logo=github&color=black" alt="GitHub Stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"></a>
+  <a href="llms.txt"><img src="https://img.shields.io/badge/Claude%20Code-Skill%20Ready-F59E0B?style=flat-square&logo=anthropic" alt="Claude Code Ready"></a>
+  <a href="cli/executive_brief_generator.py"><img src="https://img.shields.io/badge/CLI-Brief%20Generator-121317?style=flat-square&logo=python" alt="CLI Generator"></a>
+  <a href="cheatsheets/communication_matrix.svg"><img src="https://img.shields.io/badge/Matrix-Printable%20SVG-orange?style=flat-square" alt="Alignment Matrix"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
+</p>
 
 </div>
 
@@ -17,49 +26,81 @@
 
 ### 📖 Editorial Background
 
-> **"Managing up is not about deference or office politics. It is about turning your manager into the most effective leverage point for strategic initiatives. Exceptional professionals never bring open-ended problems to leadership; they bring structured choices."**  
-> — kaka (23-Year Tencent PM & WeChat Pay Senior Interviewer)
+> **"The fundamental difference between mediocre and exceptional professionals: the former approaches leadership with question marks; the latter approaches leadership with options, recommendations, and quantified trade-offs."**  
+> — kaka · 23-Year Tencent WeChat Pay Senior Lead & Interviewer
 
-Across high-performance teams and technology enterprises, professionals regularly fall into three critical pitfalls:
+In high-growth tech organizations, engineering and product talent consistently suffer from three communication anti-patterns:
 
-1. **The Tactical Labor Trap**: Working relentless overtime to resolve operational emergencies, only to be evaluated during annual reviews as "a diligent executor who lacks strategic business ownership."
-2. **The Chaotic Status Update**: When leadership asks for a progress update, delivering either an unedited 500-word stream-of-consciousness log or an opaque "everything is fine," leaving leaders blind to critical risks.
-3. **The Promotion Committee Defense Failure**: When committee evaluators ask: *"What would have happened if someone else ran this project?"* or *"What did you uniquely own?"*, freezing and falling back on defensive effort-based rhetoric.
+1. **The Passive Execution Trap**: Waiting for managers to check in, leading to micromanagement, anxiety, and surprise blockers.
+2. **Problem-Dumping**: Reporting blockers as open-ended essay questions ("Upstream failed, what do we do?"), forcing leaders to do the cognitive heavy lifting.
+3. **Toil-Only Promotion Narratives**: Framing performance around hours worked ("refactored legacy Python services") rather than commercial leverage, cross-team velocity multipliers, and defensible ROI.
 
-This system extracts field insights from 23-year Tencent product expert kaka to deliver **Options-First Decision Protocols, 30-Second Async Status Broadcasts, STAR Impact Restructuring, and Promotion Committee War-Games**.
+This repository codifies the executive communication protocol used across Tier-1 BigTech leadership: **Options-First Decision Protocol, 30-Second Async Broadcasts, STAR Value Restructuring, and Calibration Committee Defense Wargames**.
+
+---
+
+### ⚡ Instant CLI Executive Brief Generator
+
+Generate structured executive broadcast updates in under 15 seconds:
+
+```bash
+# 1. Clone repository
+git clone https://github.com/Daokexun/upward-communication-copilot.git
+cd upward-communication-copilot
+
+# 2. Run instant comparative broadcast drill (Junior Panic vs. Executive Brief)
+python cli/executive_brief_generator.py --generate-sample
+```
 
 ---
 
 ### 🏛️ Four Core Pillars
 
-Modeled after executive leadership editorial playbooks and asynchronous enterprise collaboration frameworks:
-
 | Pillar | Strategic Purpose | Core Execution Mechanism |
 | :--- | :--- | :--- |
-| **01 Options-First Decision Protocol**<br>`prompts/01_options_first_decision_protocol.md` | Eliminate open-ended problem dumping onto leadership | Delivers: "Primary Recommendation + Viable Alternative + Resource Tradeoff", turning open questions into binary sign-offs. |
-| **02 30-Second Async Status Broadcast**<br>`prompts/02_async_status_broadcast.md` | Establish zero-surprise visibility without micromanagement | Structures: "Core Milestones + Active Blockers + Contingency Mitigations + Specific Asks." |
-| **03 STAR Impact Narrative Restructuring**<br>`prompts/03_star_narrative_restructuring.md` | Reframe tactical grind into boardroom business metrics | Formulates: "Macro Business Crisis Context $	o$ Architectural Tradeoff Action $	o$ Quantified Commercial Result." |
-| **04 Promotion Committee Defense Simulator**<br>`prompts/04_p9_promotion_defense_simulator.md` | Defend high-stakes career promotion panels | War-games hostile committee lines of questioning: personal ownership, cross-team resistance, and core defensibility. |
+| **01 Options-First Decision Protocol**<br>`prompts/01_options_first_alignment.md` | Transform leaders from scrutinizers into organizational leverage | Replaces open-ended questions with Option A (Recommended) and Option B (Conservative trade-off). |
+| **02 30-Second Async Progress Broadcast**<br>`prompts/02_async_progress_broadcast.md` | Eliminate information asymmetry with zero-surprise updates | 4-block status updates: Status Indicator + Business Metric + Decision Fork + Next Steps & DRI. |
+| **03 STAR Business Impact Structuring**<br>`prompts/03_star_narrative_restructuring.md` | Purge maintenance toil and frame commercial value | Restructures complex backend refactoring into commercial foundation, latency wins, and cross-team velocity. |
+| **04 Promotion Defense Wargame**<br>`prompts/04_promotion_defense_wargame.md` | Simulate P9-P11 expert panel cross-examination | Stress-tests scope, attribution ("What if someone else built this?"), architectural trade-offs, and technical debt. |
 
 ---
 
-### 📐 System Architecture
+### 📐 System Architecture Matrix
 
-The following diagram illustrates the complete workflow from daily async updates to executive sign-offs and committee defense:
+The following diagram illustrates the 4-layer operational alignment matrix:
 
 <div align="center">
-  <img src="assets/architecture.png" alt="Upward Alignment System Architecture" width="100%" style="border-radius: 10px; border: 1px solid #27272A; box-shadow: 0 8px 30px rgba(0,0,0,0.3);" />
+  <img src="assets/architecture.png" alt="Executive Architecture Diagram" width="100%" />
 </div>
 
 ---
 
-### 🥊 Tactical Breakdown: Student Employee vs. Executive Alignment Veteran
+### 🌲 Channel Selection Matrix & 1-Page Cheatsheet
 
-| Workplace Situation | Amateur Approach | Executive Alignment Playbook |
+Downloadable high-density printable vector artifacts for rapid review:
+- 📄 **1-Page Cheat Sheet**: [`cheatsheets/executive_alignment_cheatsheet.md`](cheatsheets/executive_alignment_cheatsheet.md) (Channel selection matrix, STAR toil-to-merit restructuring)
+- 📊 **Vector Alignment Matrix**: [`cheatsheets/communication_matrix.svg`](cheatsheets/communication_matrix.svg)
+
+<div align="center">
+  <img src="cheatsheets/communication_matrix.svg" alt="Executive Alignment Matrix" width="100%" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);" />
+</div>
+
+---
+
+### 🥊 Tactical Breakdown: Junior Panic vs. Executive Problem Solver
+
+| Communication Context | Junior / Passive Anti-Pattern | Executive-Calibrated Protocol |
 | :--- | :--- | :--- |
-| **Cross-team dependencies delay API delivery** | Complain to manager: "The other team isn't delivering on time; our project will slip." | **Frame Options & Request Targeted Leverage**: "Due to Team X's reorganization, joint testing is delayed by 5 days. I have prepared two contingency paths: **Option A (Recommended)**: Deploy a simulated mock server to unblock core checkout flows for launch on the 28th, requiring your alignment with Team X's director during Wednesday sync; **Option B**: Slip release to mid-next month. I recommend Option A to preserve Q3 momentum." |
-| **Manager asks via chat: "What's the status?"** | Paste an unedited list of daily tasks and meetings attended. | **30-Second High-Density Broadcast**: "Core checkout integration is 100% complete with 8,500 TPS (exceeding target by 20%). Active blocker: sporadic latency spikes in risk checks (1.2% rate); fallback circuit-breaker is deployed with permanent patch scheduled for tomorrow 10:00 AM. Zero impact on Thursday release; no executive escalation needed." |
-| **Promotion panel challenges: "Wasn't this outcome driven by market tailwinds rather than you?"** | Become defensive: "I worked weekends and holidays; the system would have collapsed without me." | **Causal Isolation & Counterfactual Defense**: "Market demand indeed grew 25%. However, our unique intervention was **reducing per-transaction compute cost by 38% and eliminating three catastrophic cascade points under 2x load**. Without this adaptive routing engine, server burn rate would have increased by \$250,000/month. That was the foundational business moat our team built." |
+| **Project blocked by upstream dependency** | Panic dump: "The upstream team's API failed and our release is blocked. What should we do now?" | **Options-First Protocol**: "[AT RISK] Core checkout blocked by upstream auth API. We need decision authorization by 16:00 between two paths: **Option A (Recommended)**: Route traffic to backup auth gateway (zero customer downtime, +$450 cloud cost); **Option B (Conservative)**: Delay launch until upstream fixes by 20:00 (zero dollar cost, pushes launch 1 day). We recommend Option A to protect $1.2M launch GMV." |
+| **Promotion calibration questioning** | "I worked 60 hours a week and solved all bugs assigned to me." | **Attribution & Multiplication**: "I recognized that fragmented caching caused 40% of peak-season outages. Beyond resolving tickets, I standardized the team-wide caching framework, which accelerated feature delivery across 3 sister teams by 3.2x while sustaining $45M in transactions with zero downtime." |
+
+---
+
+### 🤖 AI Coding Agent Integration (`llms.txt`)
+
+This repository is optimized for autonomous coding agents (Claude Code, Cursor, GitHub Copilot).
+- **Curated Rules**: Feed [`llms.txt`](llms.txt) to your AI agent to auto-format your daily standups into executive-grade 30-second briefs.
+- **Full Specification**: Reference [`llms-full.txt`](llms-full.txt) for calibration defense rubrics.
 
 ---
 
@@ -68,42 +109,40 @@ The following diagram illustrates the complete workflow from daily async updates
 ```text
 upward-communication-copilot/
 ├── assets/
-│   ├── hero_poster_en.jpg           # Dropbox-style English publication banner
-│   ├── hero_poster_zh.jpg           # Chinese publication banner
-│   ├── architecture.svg             # English vector architecture diagram
-│   └── architecture_zh.svg          # Chinese vector architecture diagram
+│   ├── hero_poster_en.jpg           # Titanium English publication banner (1280x720)
+│   ├── hero_poster_zh.jpg           # Chinese publication banner (1280x720)
+│   ├── architecture.png             # 1280x640 High-Density Architecture Blueprint
+│   └── architecture_zh.png          # 1280x640 Chinese Architecture Blueprint
+├── cheatsheets/
+│   ├── executive_alignment_cheatsheet.md # 1-page high-density quick reference
+│   └── communication_matrix.svg     # Printable vector channel selection matrix
+├── cli/
+│   └── executive_brief_generator.py # Interactive CLI 30s Executive Brief Generator
 ├── prompts/
-│   ├── 01_options_first_decision_protocol.md # Options-first executive alignment workbench
-│   ├── 02_async_status_broadcast.md          # 30-second async broadcast templates
-│   ├── 03_star_narrative_restructuring.md    # Commercial STAR impact reframing engine
-│   └── 04_p9_promotion_defense_simulator.md # High-stakes promotion panel war-game
+│   ├── 01_options_first_alignment.md      # Options-first decision protocol
+│   ├── 02_async_progress_broadcast.md     # 30-second async progress broadcast
+│   ├── 03_star_narrative_restructuring.md # STAR business impact restructuring
+│   └── 04_promotion_defense_wargame.md    # Expert-level promotion defense wargame
 ├── templates/
-│   └── upward_schema.json           # Structured decision and promotion data schema
+│   └── executive_brief_schema.json  # 4-block executive brief validation schema
 ├── evals/
-│   └── rubric_100_upward.json       # 100-point defense and clarity evaluation rubric
-├── docs/
-│   └── ARCHITECTURE.md              # In-depth executive upward alignment whitepaper
-├── examples/
-│   └── SHOWCASE_COMPARISON.md       # Real-world promotion transcript before/after analysis
-├── SKILL.md                         # Antigravity / Claude Agent Skill specification
+│   └── rubric_100_upward_alignment.json # 100-point upward management evaluation rubric
+├── llms.txt                         # Curated AI Agent specification
+├── llms-full.txt                    # Comprehensive specification
 ├── README.md                        # English documentation (current file)
 └── README_zh.md                     # Chinese documentation
 ```
 
 ---
 
-### 🚀 Quickstart
+### 🌟 Star History & Community
 
-```bash
-# Clone the repository
-git clone https://github.com/Daokexun/upward-communication-copilot.git
-
-# Inspect the options-first decision framework
-cat prompts/01_options_first_decision_protocol.md
-```
-
----
+<p align="center">
+  <a href="https://star-history.com/#Daokexun/upward-communication-copilot&Date">
+    <img src="https://api.star-history.com/svg?repos=Daokexun/upward-communication-copilot&type=Date" alt="Star History Chart" width="100%">
+  </a>
+</p>
 
 ### 📄 License & Community
 
-This project is open-sourced under the [MIT License](LICENSE). Peer contributions from product leads, engineering managers, and executive coaches are welcomed via [CONTRIBUTING.md](CONTRIBUTING.md).
+This project is open-sourced under the [MIT License](LICENSE). Contributions from senior engineering managers, product leaders, and executive coaches are welcomed via [CONTRIBUTING.md](CONTRIBUTING.md).

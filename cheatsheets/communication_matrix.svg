@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" style="background:#121317;font-family:'Segoe UI',system-ui,sans-serif;">
+  <defs>
+    <linearGradient id="p3BoxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181920"/>
+      <stop offset="100%" stop-color="#1E1F28"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Header -->
+  <text x="600" y="45" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" letter-spacing="1">EXECUTIVE ALIGNMENT MATRIX // UPWARD PROTOCOL BLUEPRINT</text>
+  <text x="600" y="75" text-anchor="middle" fill="#F59E0B" font-size="13" font-family="monospace" letter-spacing="2">GROUNDED IN WECHAT PAY FIELD PRACTICE · COMMUNICATE WITH IMPACT</text>
+
+  <!-- 4 Architecture Pillars -->
+  <!-- Pillar 1 -->
+  <rect x="50" y="120" width="250" height="340" rx="8" fill="url(#p3BoxGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <rect x="50" y="120" width="250" height="36" rx="8" fill="#F59E0B"/>
+  <text x="175" y="144" text-anchor="middle" fill="#121317" font-size="12" font-family="monospace" font-weight="800">LAYER 01 // ASYNC CADENCE</text>
+  <text x="175" y="185" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">30s Executive Broadcast</text>
+  <text x="70" y="220" fill="#A1A1AA" font-size="12">• Status indicator (🟢/🟡/🔴)</text>
+  <text x="70" y="245" fill="#A1A1AA" font-size="12">• Business metric delta</text>
+  <text x="70" y="270" fill="#A1A1AA" font-size="12">• Decision fork deadline</text>
+  <text x="70" y="295" fill="#A1A1AA" font-size="12">• Zero-surprise early alert</text>
+  <rect x="65" y="380" width="220" height="60" rx="6" fill="#121317" stroke="rgba(255,255,255,0.08)"/>
+  <text x="175" y="405" text-anchor="middle" fill="#A1A1AA" font-size="11" font-weight="600">CORE VALUE</text>
+  <text x="175" y="425" text-anchor="middle" fill="#F59E0B" font-size="12" font-weight="700">Eliminates Micro-management</text>
+
+  <!-- Pillar 2 -->
+  <rect x="330" y="120" width="250" height="340" rx="8" fill="url(#p3BoxGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <rect x="330" y="120" width="250" height="36" rx="8" fill="#F59E0B"/>
+  <text x="455" y="144" text-anchor="middle" fill="#121317" font-size="12" font-family="monospace" font-weight="800">LAYER 02 // DECISION FLOW</text>
+  <text x="455" y="185" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">Options-First Protocol</text>
+  <text x="350" y="220" fill="#A1A1AA" font-size="12">• Option A (Recommended)</text>
+  <text x="350" y="245" fill="#A1A1AA" font-size="12">• Option B (Trade-off Cost)</text>
+  <text x="350" y="270" fill="#A1A1AA" font-size="12">• Quantified resource ask</text>
+  <text x="350" y="295" fill="#A1A1AA" font-size="12">• Convert essay into choice</text>
+  <rect x="345" y="380" width="220" height="60" rx="6" fill="#121317" stroke="rgba(255,255,255,0.08)"/>
+  <text x="455" y="405" text-anchor="middle" fill="#A1A1AA" font-size="11" font-weight="600">CORE VALUE</text>
+  <text x="455" y="425" text-anchor="middle" fill="#F59E0B" font-size="12" font-weight="700">Leverages Leadership Power</text>
+
+  <!-- Pillar 3 -->
+  <rect x="610" y="120" width="250" height="340" rx="8" fill="url(#p3BoxGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <rect x="610" y="120" width="250" height="36" rx="8" fill="#F59E0B"/>
+  <text x="735" y="144" text-anchor="middle" fill="#121317" font-size="12" font-family="monospace" font-weight="800">LAYER 03 // IMPACT ENGINE</text>
+  <text x="735" y="185" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">STAR Business Value</text>
+  <text x="630" y="220" fill="#A1A1AA" font-size="12">• Purge maintenance toil</text>
+  <text x="630" y="245" fill="#A1A1AA" font-size="12">• Translate to revenue / velocity</text>
+  <text x="630" y="270" fill="#A1A1AA" font-size="12">• Cross-team velocity lift</text>
+  <text x="630" y="295" fill="#A1A1AA" font-size="12">• Commercial stability anchor</text>
+  <rect x="625" y="380" width="220" height="60" rx="6" fill="#121317" stroke="rgba(255,255,255,0.08)"/>
+  <text x="735" y="405" text-anchor="middle" fill="#A1A1AA" font-size="11" font-weight="600">CORE VALUE</text>
+  <text x="735" y="425" text-anchor="middle" fill="#F59E0B" font-size="12" font-weight="700">Reframes Toil to Merit</text>
+
+  <!-- Pillar 4 -->
+  <rect x="890" y="120" width="250" height="340" rx="8" fill="url(#p3BoxGrad)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <rect x="890" y="120" width="250" height="36" rx="8" fill="#F59E0B"/>
+  <text x="1015" y="144" text-anchor="middle" fill="#121317" font-size="12" font-family="monospace" font-weight="800">LAYER 04 // DEFENSE LAB</text>
+  <text x="1015" y="185" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">Promotion Defense Sandtable</text>
+  <text x="910" y="220" fill="#A1A1AA" font-size="12">• P9-P11 expert mock interrogation</text>
+  <text x="910" y="245" fill="#A1A1AA" font-size="12">• Scope & indispensability defense</text>
+  <text x="910" y="270" fill="#A1A1AA" font-size="12">• Architectural debt attribution</text>
+  <text x="910" y="295" fill="#A1A1AA" font-size="12">• Unanimous approval strategy</text>
+  <rect x="905" y="380" width="220" height="60" rx="6" fill="#121317" stroke="rgba(255,255,255,0.08)"/>
+  <text x="1015" y="405" text-anchor="middle" fill="#A1A1AA" font-size="11" font-weight="600">CORE VALUE</text>
+  <text x="1015" y="425" text-anchor="middle" fill="#F59E0B" font-size="12" font-weight="700">Unanimous Offer Leveling</text>
+
+  <!-- Bottom Quote Bar -->
+  <rect x="50" y="490" width="1090" height="75" rx="8" fill="#181920" stroke="rgba(255,255,255,0.08)"/>
+  <text x="595" y="525" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">TENCENT EXECUTIVE ALIGNMENT CORE MAXIM</text>
+  <text x="595" y="548" text-anchor="middle" fill="#A1A1AA" font-size="11.5">"Your manager has 10x more organizational leverage than you; an Options-First update turns that leverage on in 10 seconds."</text>
+</svg>

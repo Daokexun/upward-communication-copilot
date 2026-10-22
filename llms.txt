@@ -1,0 +1,14 @@
+# Upward Communication Copilot & Promotion Defense Protocol (llms.txt)
+> The Executive Alignment Operating System: Transform daily engineering execution into strategic executive visibility, master 30s async broadcasts, STAR business impact, and wargame promotion defense.
+
+## Core Pillars & Prompts
+- [01 Options-First Decision Protocol](prompts/01_options_first_alignment.md): Transform open-ended questions into structured A/B options with concrete trade-offs.
+- [02 30-Second Async Broadcast](prompts/02_async_progress_broadcast.md): Status indicators, quantified business metrics, decision forks, and next check-ins.
+- [03 STAR Business Impact Structuring](prompts/03_star_narrative_restructuring.md): Translate low-visibility maintenance toil into strategic commercial pillars.
+- [04 Promotion Defense Wargame](prompts/04_promotion_defense_wargame.md): Simulated P9-P11 expert panel cross-examination probing scope, autonomy, and attribution.
+
+## CLI Evaluation
+- `python cli/executive_brief_generator.py --generate-sample`
+
+## Key Heuristic
+The fundamental difference between mediocre and exceptional professionals: the former approaches leadership with question marks; the latter approaches leadership with options, recommendations, and quantified trade-offs.

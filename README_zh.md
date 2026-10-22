@@ -7,9 +7,18 @@
 <img src="assets/hero_poster_zh.jpg" alt="高阶向上管理与晋升答辩实战指南" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);" />
 
 # 高阶向上管理与晋升答辩实战指南
-### Executive Upward Alignment & Promotion Defense Copilot
+### Upward Communication Copilot & Promotion Defense Protocol
 
-**沉淀自腾讯微信支付 23 年产品专家与资深面试官 kaka 实战手记 · 职场关键决策协同与晋升攻防体系**
+**沉淀自腾讯微信支付 23 年产品专家 & 资深面试官 kaka 实战方法论 · 把管理者转化为业务杠杆，掌握选项决策与晋升答辩**
+
+<p align="center">
+  <a href="https://github.com/Daokexun/upward-communication-copilot/stargazers"><img src="https://img.shields.io/github/stars/Daokexun/upward-communication-copilot?style=flat-square&logo=github&color=black" alt="GitHub Stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"></a>
+  <a href="llms.txt"><img src="https://img.shields.io/badge/Claude%20Code-Skill%20Ready-F59E0B?style=flat-square&logo=anthropic" alt="Claude Code Ready"></a>
+  <a href="cli/executive_brief_generator.py"><img src="https://img.shields.io/badge/CLI-Brief%20Generator-121317?style=flat-square&logo=python" alt="CLI Generator"></a>
+  <a href="cheatsheets/communication_matrix.svg"><img src="https://img.shields.io/badge/Matrix-Printable%20SVG-orange?style=flat-square" alt="Alignment Matrix"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
+</p>
 
 </div>
 
@@ -17,93 +26,123 @@
 
 ### 📖 导读与实战背景
 
-> **“向上管理不是拍马屁，更不是被动等待指令。它是把你的管理者变成你推进业务的最高效杠杆。卓越员工与平庸员工最大的区别，在于前者永远带着选项找主管，后者永远带着问号找答案。”**  
-> —— kaka（腾讯微信支付 23 年资深业务面试官）
+> **“卓越员工与平庸员工最大的区别，在于前者永远带着选项找主管，后者永远带着问号找答案。”**  
+> —— kaka · 腾讯微信支付 23 年产品专家 & 资深面试官（鹅厂卧谈会 EP13）
 
-在大型组织与高成长团队中，一线骨干常面临三大困局：
+在互联网大厂与高成长组织中，技术与产品骨干普遍存在三大致命沟通盲区：
 
-1. **“低头拉车，无人知晓”**：每天加班至深夜处理突发异常，自以为任劳任怨，到了年度考核和晋升评审，评委却认为“只具备执行力，缺乏业务全局把控度”；
-2. **“无效沟通，引发焦虑”**：主管询问“项目推进怎么样”，要么发一段 800 字没有重点的流水账，要么回一句空洞的“都在正常推进”，导致主管对关键风险完全失控；
-3. **“答辩翻车，功亏一篑”**：晋升答辩现场，评委一追问“这个项目换别人做会怎样”、“你到底主导了什么”，瞬间语塞，陷入苦劳式自我感动。
+1. **“被动执行，被动猜测”**：从不主动同步进展，直到主管问起才汇报，极易引发微观管理与信任危机；
+2. **“甩锅式提问”**：遇到卡点只甩出问号（“上游接口崩了，现在怎么办？”），逼迫主管做底层认知思考；
+3. **“苦劳叙事，晋升折戟”**：答辩时通篇只讲“我加班干了多少活、改了多少代码”，缺乏不可替代性归因、商业 ROI 支撑与业务全局影响力。
 
-本指南源于腾讯 23 年资深产品专家 kaka 的带队与评审实战，系统梳理**选项优先决策协议、30秒异步简报、STAR战功叙事重构与专家级晋升防守沙盘**，帮助职场人建立与上级、评审委员会的深度信任。
+本指南源于腾讯千亿级核心业务评审实战，系统沉淀**选项优先决策协议、30 秒异步简报机制、STAR 业务战功重构与专家级答辩攻防沙盘**，助力骨干员工实现跃迁。
+
+---
+
+### ⚡ 15 秒开箱实测 CLI
+
+本地无需繁琐配置，终端直接体验高阶 30 秒异步简报对比生成：
+
+```bash
+# 1. 克隆代码仓库
+git clone https://github.com/Daokexun/upward-communication-copilot.git
+cd upward-communication-copilot
+
+# 2. 运行对比评测：甩锅式提问 vs 选项优先高阶异步简报
+python cli/executive_brief_generator.py --generate-sample
+```
 
 ---
 
 ### 🏛️ 四大核心支柱 (Core Capabilities)
 
-参考 LinkedIn Pulse 领英专栏与企业协作最佳实践，本系统包含 4 个标准化工作台：
-
 | 模块 | 核心解决问题 | 一线实战落地打法 |
 | :--- | :--- | :--- |
-| **01 选项优先决策协议**<br>`prompts/01_options_first_decision_protocol.md` | 杜绝把决策压力直接甩给主管 | 严格遵循“推荐方案（带收益）+ 备选方案（带折中）+ 所需决策动作”，把问答题转化为单选题。 |
-| **02 30秒异步进度简报**<br>`prompts/02_async_status_broadcast.md` | 解决信息不对称与过度汇报焦虑 | 结构化输出“核心里程碑进度 + 关键阻塞卡点 + 备用兜底预案 + 所需特定支持”，建立零惊吓汇报机制。 |
-| **03 业务战功叙事重构 (STAR)**<br>`prompts/03_star_narrative_restructuring.md` | 彻底剥离苦劳叙事，聚焦商业成果 | 采用“业务痛点与危机 Context $	o$ 架构级决策 Action $	o$ 业务量化结果 Result”，把繁杂运维重构为商业底座。 |
-| **04 专家级晋升答辩沙盘**<br>`prompts/04_p9_promotion_defense_simulator.md` | 应对 P9-P11 专家评审连环高压追问 | 模拟针对“主导权占比”、“技术与业务取舍”、“跨团队阻力化解”、“不可替代性”等维度的压力测试。 |
+| **01 选项优先决策协议**<br>`prompts/01_options_first_alignment.md` | 把主管从“审查者”转为“破障杠杆” | 坚决杜绝只甩问号，给出推荐方案 A (带收益) + 备选方案 B (带折中)，把问答题转化为单选题。 |
+| **02 30 秒异步进度简报**<br>`prompts/02_async_progress_broadcast.md` | 消除信息黑盒，建立零惊吓日常同步 | 结构化 4 块呈现：状态红黄绿灯 + 商业指标影响 + 关键决策岔路口 + 下一步里程碑与负责人。 |
+| **03 业务战功叙事 (STAR)**<br>`prompts/03_star_narrative_restructuring.md` | 剥离繁琐苦劳叙事，重构商业支柱 | 剥离底层琐碎运维，将系统优化重构为组织人效提升、商业护城河与万亿级支付高可用保障。 |
+| **04 专家级晋升答辩沙盘**<br>`prompts/04_promotion_defense_wargame.md` | 模拟 P9-P11 专家连环高压追问 | 拆解“若换他人做系统会有何根本差异”、“技术选型权衡”、“长线技术债务归因”，筑牢不可替代性防线。 |
 
 ---
 
 ### 📐 业务全景系统架构
 
-下图展示了从日常异步协同、关键决策对齐到晋升答辩攻防的闭环流程：
+下图展示了日常触达、决策流转、价值叙事到答辩攻防的全景四层闭环：
 
 <div align="center">
-  <img src="assets/architecture_zh.png" alt="向上管理业务全景系统架构图" width="100%" style="border-radius: 10px; border: 1px solid #27272A; box-shadow: 0 8px 30px rgba(0,0,0,0.3);" />
+  <img src="assets/architecture_zh.png" alt="向上管理业务全景架构" width="100%" />
 </div>
 
 ---
 
-### 🥊 实战攻防对比：学生式汇报 vs 专家级向上对齐
+### 🌲 沟通通道决策矩阵与一页纸速查卡
 
-| 职场场景 | 普通员工的习惯性应对 | 资深专家的向上对齐打法 |
-| :--- | :--- | :--- |
-| **遇到跨部门接口人拖延排期** | 找领导抱怨：“张总，XX 部门一直不给我们排期，项目可能要延期了。” | **带选项申请资源**：“张总，XX 部门由于当期重组，接口联调延迟 5 天。当前我有两个预案：**方案A（推荐）**：采用降级 Mock 方案先行联调，核心功能如期在 28 号上线，需您在周会帮我们与业务线老李确认下周灰度范围；**方案B**：等待其正式接口，整体延迟至下月中旬。我建议执行方案A，您看是否可行？” |
-| **主管微信询问：“项目进展如何？”** | 回复一段 500 字的详细操作记录，列举每天开了什么会、写了什么代码。 | **30 秒异步要点播报**：“李总，项目当前处于压测阶段：1. **核心进展**：支付链路联调 100% 完成，TPS 达到 8500（超预期 20%）；2. **卡点与预案**：风控策略响应偶发超时（约 1.2%），已上线旁路熔断机制，预计明早 10 点前完成修复；3. **结论**：本周四按期发布不受影响，无需额外协调资源。” |
-| **晋升答辩被评委问：“这个业务不是大盘带起来的吗，你的核心贡献是什么？”** | 慌乱自辩：“我每天都在加班写代码，如果没有我们团队支撑，系统早就崩溃了。” | **因果剥离与反事实推演**：“老师问到了最关键的点。大盘确实有 25% 的自然增长，但我们团队的核心攻坚在于：在大盘流量翻倍的背景下，**将单笔交易算力成本降低了 38%，并消除了 3 处历史遗留的单点雪崩隐患**。如果不做这套自适应调度改造，大盘增长所带来的直接服务器预算开销将增加 180 万元/月。这是我们团队在该项目中不可替代的商业底座价值。” |
+配备高清可打印矢量图与速查清单：
+- 📄 **一页纸核心速查卡**：[`cheatsheets/executive_alignment_cheatsheet.md`](cheatsheets/executive_alignment_cheatsheet.md)（通道决策矩阵、STAR苦劳向功劳转译）
+- 📊 **矢量沟通决策矩阵**：[`cheatsheets/communication_matrix.svg`](cheatsheets/communication_matrix.svg)
+
+<div align="center">
+  <img src="cheatsheets/communication_matrix.svg" alt="沟通决策矩阵" width="100%" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);" />
+</div>
 
 ---
 
-### 📂 仓库核心资产目录
+### 🥊 实战攻防对比：平庸员工 vs 高阶专业人才
+
+| 沟通情境 | 平庸被动员工的做法 | 高阶专业人才的打法 |
+| :--- | :--- | :--- |
+| **项目遇到上游团队接口阻塞** | 甩锅焦虑：“上游接口今天突然挂了，我们的项目也卡住了，现在该怎么办？” | **选项优先协议**：“【预警】核心支付流受上游鉴权接口故障阻塞。需在 16:00 前决策：**方案 A (推荐)**：切至备用从属鉴权网关（用户零感知，产生约 $450 云网络成本）；**方案 B (保守)**：等待上游 20:00 修复热补丁（零金钱成本，但上线整体顺延 1 天）。建议执行方案 A 以保障 120 万日 GMV 按期开门红。” |
+| **晋升答辩被问及项目贡献** | 苦劳陈述：“我连续加班 3 个月，每天干到 11 点，把老系统的几千行代码都重构了，写了很多单测。” | **战功叙事 (STAR)**：“我发现老旧缓存机制是引发大促故障的根源。我没有止步于修补 Bug，而是主导落地了团队级二级缓存框架，将兄弟团队的发版周期提速 3.2 倍（14天缩减至4.3天），平稳承载了 4500 万交易量零抖动。” |
+
+---
+
+### 🤖 AI Coding Agent 原生就绪 (`llms.txt`)
+
+本项目全面适配 Claude Code、Cursor、GitHub Copilot 等 AI 编程助手：
+- **精选上下文规则**：将 [`llms.txt`](llms.txt) 引入 Cursor 规则库，自动将你的工作日报转化为符合微信支付高管审美的高密度简报。
+- **全量攻防规格**：参考 [`llms-full.txt`](llms-full.txt) 模拟 P9-P11 专家对你的晋升述职进行连环拷问。
+
+---
+
+### 📂 目录结构全览
 
 ```text
 upward-communication-copilot/
 ├── assets/
-│   ├── hero_poster_zh.jpg           # Dropbox / LinkedIn 风格中文商业封面
-│   ├── hero_poster_en.jpg           # 英文版商业封面
-│   ├── architecture_zh.svg          # 中文矢量系统架构图
-│   └── architecture.svg             # 英文矢量系统架构图
+│   ├── hero_poster_en.jpg           # 钛金机能英文技术封面海报 (1280x720)
+│   ├── hero_poster_zh.jpg           # 中文技术封面海报 (1280x720)
+│   ├── architecture.png             # 1280x640 全景钛金架构蓝图
+│   └── architecture_zh.png          # 1280x640 中文架构蓝图
+├── cheatsheets/
+│   ├── executive_alignment_cheatsheet.md # 一页纸速查卡 (通道选择与STAR重构)
+│   └── communication_matrix.svg     # 可打印矢量沟通通道决策矩阵
+├── cli/
+│   └── executive_brief_generator.py # 交互式 30 秒高阶异步简报生成工具
 ├── prompts/
-│   ├── 01_options_first_decision_protocol.md # 选项优先决策汇报协议工作台
-│   ├── 02_async_status_broadcast.md          # 30 秒异步进度与卡点播报模版
-│   ├── 03_star_narrative_restructuring.md    # 业务战功与商业影响力重构引擎
-│   └── 04_p9_promotion_defense_simulator.md # 专家级晋升答辩高压沙盘推演
+│   ├── 01_options_first_alignment.md      # 选项优先决策协议
+│   ├── 02_async_progress_broadcast.md     # 30秒异步进度简报
+│   ├── 03_star_narrative_restructuring.md # 业务战功叙事 (STAR)
+│   └── 04_promotion_defense_wargame.md    # 专家级晋升答辩沙盘
 ├── templates/
-│   └── upward_schema.json           # 决策汇报与晋升材料结构化 Schema
+│   └── executive_brief_schema.json  # 4 块结构化异步简报校验 Schema
 ├── evals/
-│   └── rubric_100_upward.json       # 向上管理成熟度与答辩说服力评分准则
-├── docs/
-│   └── ARCHITECTURE.md              # 向上管理与高阶影响力完整白皮书
-├── examples/
-│   └── SHOWCASE_COMPARISON.md       # 真实大厂晋升述职前后对比全记录
-├── SKILL.md                         # Antigravity / Claude 智能体技能定义
-├── README_zh.md                     # 中文实战文档（当前文件）
-└── README.md                        # 英文版发布文档
+│   └── rubric_100_upward_alignment.json # 100 分制向上协同与晋升评鉴基准
+├── llms.txt                         # AI Agent 规范
+├── llms-full.txt                    # 完整规范
+├── README.md                        # 英文说明文档
+└── README_zh.md                     # 中文说明文档 (当前文件)
 ```
 
 ---
 
-### 🚀 快速上手 (Quickstart)
+### 🌟 Star History & 社区
 
-```bash
-# 1. 克隆本仓库
-git clone https://github.com/Daokexun/upward-communication-copilot.git
+<p align="center">
+  <a href="https://star-history.com/#Daokexun/upward-communication-copilot&Date">
+    <img src="https://api.star-history.com/svg?repos=Daokexun/upward-communication-copilot&type=Date" alt="Star History Chart" width="100%">
+  </a>
+</p>
 
-# 2. 查阅选项优先决策汇报模版
-cat prompts/01_options_first_decision_protocol.md
-```
+### 📄 开源许可证与贡献
 
----
-
-### 📄 开源许可与贡献
-
-本项目基于 [MIT License](LICENSE) 开源。欢迎业务骨干、技术 Leader 贡献真实向上协同案例与答辩抗辩题库。贡献规范详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+本项目采用 [MIT License](LICENSE) 开源。欢迎各大厂产品专家、技术 Leader 及职场伙伴共同参与共建，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
