@@ -4,7 +4,15 @@
 
 <div align="center">
 
-<img src="assets/hero_poster_zh.jpg" alt="高阶向上管理与晋升答辩实战指南" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);" />
+<a href="assets/hero_motion_demo.mp4">
+  <img src="assets/hero_motion_preview.gif" alt="高阶向上管理与晋升答辩实战指南 动态演示" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" />
+</a>
+
+<p align="center">
+  <em>⚡ 实战动态推演：高管决策智脑、海量技术排查压缩、30 秒选项优先简报生成</em>
+  <br>
+  <a href="assets/hero_motion_demo.mp4">▶ <b>观看完整 10 秒 60fps 高清动态视频 (assets/hero_motion_demo.mp4)</b></a> · <a href="assets/hero_poster_zh.jpg">🖼 静态钛金机能海报</a>
+</p>
 
 # 高阶向上管理与晋升答辩实战指南
 ### Upward Communication Copilot & Promotion Defense Protocol
@@ -13,6 +21,7 @@
 
 <p align="center">
   <a href="https://github.com/Daokexun/upward-communication-copilot/stargazers"><img src="https://img.shields.io/github/stars/Daokexun/upward-communication-copilot?style=flat-square&logo=github&color=black" alt="GitHub Stars"></a>
+  <a href="assets/hero_motion_demo.mp4"><img src="https://img.shields.io/badge/Demo-HD%20Video-E11D48?style=flat-square&logo=youtube" alt="HD Video Demo"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"></a>
   <a href="llms.txt"><img src="https://img.shields.io/badge/Claude%20Code-Skill%20Ready-F59E0B?style=flat-square&logo=anthropic" alt="Claude Code Ready"></a>
   <a href="cli/executive_brief_generator.py"><img src="https://img.shields.io/badge/CLI-Brief%20Generator-121317?style=flat-square&logo=python" alt="CLI Generator"></a>
@@ -109,6 +118,8 @@ python cli/executive_brief_generator.py --generate-sample
 ```text
 upward-communication-copilot/
 ├── assets/
+│   ├── hero_motion_demo.mp4         # 10 秒 60fps 高清高管决策简报推演动态演示视频
+│   ├── hero_motion_preview.gif      # 轻量级循环动效预览图 (兼容所有 Markdown 渲染)
 │   ├── hero_poster_en.jpg           # 钛金机能英文技术封面海报 (1280x720)
 │   ├── hero_poster_zh.jpg           # 中文技术封面海报 (1280x720)
 │   ├── architecture.png             # 1280x640 全景钛金架构蓝图
